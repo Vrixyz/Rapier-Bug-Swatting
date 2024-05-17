@@ -1,0 +1,17 @@
+(
+    data: [
+        (NestingLoop(
+            reference: Ref("tower"),
+            repeated_transform: (
+                translation: (3.0, 0.0, 0.0),
+                rotation: (0.0, 30.0, 0.0),
+                scale: (0.8, 0.8, 0.8),
+            ),
+            count: 20),
+        (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        ))
+    ],
+)

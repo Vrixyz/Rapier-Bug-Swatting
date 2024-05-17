@@ -1,0 +1,19 @@
+(
+    data: [
+        (GLTF("models/Castle/wallPaint.glb#Scene0"), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/wall.glb#Scene0"), (
+            translation: (0.0, 1.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/battlement.glb#Scene0"), (
+            translation: (0.0, 2.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+    ],
+)

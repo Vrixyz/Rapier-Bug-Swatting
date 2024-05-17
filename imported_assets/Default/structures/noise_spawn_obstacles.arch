@@ -1,0 +1,23 @@
+(
+    data: [
+        (NoiseSpawn(
+            reference: Ref("jiggled_obstacle"),
+            fbm: FBMData(
+                seed: Seeded(123),
+                scale: 0.01,
+                octaves: 3,
+                frequency: 0.2,
+                lacunarity: 3.0,
+                persistence: 0.8,
+            ),
+            sample_size: BiDim(30,30),
+            count: 20,
+            exclusivity_radius: 3.0,
+            resolution_modifier: 1.0
+        ), (
+            translation: (1.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (4.0, 4.0, 4.0),
+        ))
+    ],
+)

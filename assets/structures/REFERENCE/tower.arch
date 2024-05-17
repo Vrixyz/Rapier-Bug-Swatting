@@ -1,0 +1,29 @@
+(
+    data: [
+        (GLTF("models/Castle/tower_base.glb#Scene0"), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/tower.glb#Scene0"), (
+            translation: (0.0, 1.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/tower.glb#Scene0"), (
+            translation: (0.0, 2.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/tower_edge.glb#Scene0"), (
+            translation: (0.0, 3.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/tower_top.glb#Scene0"), (
+            translation: (0.0, 3.4, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+    ],
+)

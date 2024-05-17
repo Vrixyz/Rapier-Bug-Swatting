@@ -1,0 +1,12 @@
+(
+    data: [
+        (Rand(
+            reference: Ref("tiny_castle"),
+            rand: Gaussian(3.0)
+        ), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 30.0, 0.0),
+            scale: (0.0, 0.0, 0.0),
+        ))
+    ],
+)

@@ -1,0 +1,205 @@
+(
+    data: [
+        (Choose(list: Raw((
+            data: [
+                (GLTF(
+                    path:"models/LowPolySurvival/tree.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path: "models/LowPolySurvival/tree-autumn.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree-autumn-trunk.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path: "models/LowPolySurvival/tree-tall.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree-trunk.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolyCastle/tree-small.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolyCastle/tree-large.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree-autumn.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree-autumn-trunk.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree-log.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree-log-small.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree-tall.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolySurvival/tree-trunk.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolyCastle/tree-small.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                    path:"models/LowPolyCastle/tree-large.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.05
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+            ],
+        )
+        )), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        ))
+    ],
+)

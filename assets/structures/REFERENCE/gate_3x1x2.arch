@@ -1,0 +1,49 @@
+(
+    data: [
+        (Nest(Ref("wall_1x1x2")), (
+            translation: (-1.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/wallPaint_gate.glb#Scene0"), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (SpotLight((
+            color: Rgba(
+                red: 1.0,
+                green: 0.62,
+                blue: 0.32,
+                alpha: 1.0,
+            ),
+            intensity: 50000.0,
+            range: 5.0,
+            radius: 5.0,
+            shadows_enabled: true,
+            shadow_depth_bias: 0.01,
+            shadow_normal_bias: 0.02,
+            inner_angle: 1.0,
+            outer_angle: 1.5,
+        )), (
+            translation: (0.0, 1.0, 1.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/wall.glb#Scene0"), (
+            translation: (0.0, 1.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/battlement.glb#Scene0"), (
+            translation: (0.0, 2.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("wall_1x1x2")), (
+            translation: (1.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+    ],
+)

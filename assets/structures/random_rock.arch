@@ -1,0 +1,49 @@
+(
+    data: [
+        (Choose(list: Raw((
+            data: [
+                (GLTF(
+                path: "models/LowPolySurvival/rock-a.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.2
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                path: "models/LowPolySurvival/rock-b.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.2
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (GLTF(
+                path: "models/LowPolySurvival/rock-c.glb#Scene0",
+                    priority: 0,
+                    collider: CapsuleY(
+                        half_height: 1.0,
+                        radius: 0.2
+                    ),
+                ),  (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+            ],
+        )
+        )), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        ))
+    ],
+)

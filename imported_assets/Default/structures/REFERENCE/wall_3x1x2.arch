@@ -1,0 +1,19 @@
+(
+    data: [
+        (Nest(Ref("wall_1x1x2")), (
+            translation: (-1.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("wall_1x1x2")), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("wall_1x1x2")), (
+            translation: (1.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+    ],
+)

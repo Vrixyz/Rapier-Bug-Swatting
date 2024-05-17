@@ -1,0 +1,21 @@
+(
+    data: [
+        (PathSpawn(
+            reference: Ref("tower"),  // Assuming you want to spawn "tree" objects
+            points: [
+                Vec3(0.0, 0.0, 0.0),
+                Vec3(10.0, 0.0, 20.0),
+                Vec3(-20.0, 0.0, 40.0),
+                Vec3(30.0, 0.0, 60.0),
+                Vec3(40.0, 0.0, -80.0)
+            ],
+            tension: 0.5,  // Example tension
+            spread: Regular,
+            count: 10
+        ), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        ))
+    ],
+)

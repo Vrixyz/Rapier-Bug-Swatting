@@ -1,0 +1,19 @@
+(
+    data: [
+        (GLTF("models/Castle/detail_crate.glb#Scene0"), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/detail_barrel.glb#Scene0"), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (GLTF("models/Castle/structure.glb#Scene0"), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        ))
+    ],
+)

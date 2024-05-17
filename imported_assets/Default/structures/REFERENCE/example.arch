@@ -1,0 +1,48 @@
+(
+    data: [
+        (GLTF("models/Castle/battlement.glb#Scene0"), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Raw((
+            data: [
+                (GLTF("models/Castle/tower_top.glb#Scene0"), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+            ],
+        ))), (
+            translation: (0.0, 1.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (0.3, 0.3, 0.3),
+        )),
+        (Nest(Ref("tower")), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (ProbabilitySpawn(
+            reference: Raw((
+                data: [
+                    (Nest(reference: Ref("tower")), (
+                        translation: (0.0, 0.0, 0.0),
+                        rotation: (0.0, 0.0, 0.0),
+                        scale: (1.0, 1.0, 1.0),
+                    )),
+                ],
+            )),
+            probability: 0.5
+        ), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("random_bit")), (
+            translation: (0.0, 3.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (5.0, 5.0, 5.0),
+        )),
+    ],
+)

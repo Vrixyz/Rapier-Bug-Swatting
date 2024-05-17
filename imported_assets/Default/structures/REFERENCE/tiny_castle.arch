@@ -1,0 +1,55 @@
+(
+    data: [
+        (Nest(Ref("gate_3x1x2")), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("wall_3x1x2")), (
+            translation: (-1.5, 0.0, -1.5),
+            rotation: (0.0, -90.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("wall_3x1x2")), (
+            translation: (1.5, 0.0, -1.5),
+            rotation: (0.0, 90.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("wall_3x1x2")), (
+            translation: (0.0, 0, -3.0),
+            rotation: (0.0, 180.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("wall_3x1x2")), (
+            translation: (0.0, 0, -3.0),
+            rotation: (0.0, 180.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("tower")), (
+            translation: (-1.75, 0.0, 0.25),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("tower")), (
+            translation: (1.75, 0.0, 0.25),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("tower")), (
+            translation: (1.75, 0.0, -3.5),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (Nest(Ref("tower")), (
+            translation: (-1.75, 0.0, -3.5),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        )),
+        (SoundEffect("sound_effects/crowd-talking-16756.mp3"), (
+            translation: (0.0, 1.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        ))
+    ],
+
+)

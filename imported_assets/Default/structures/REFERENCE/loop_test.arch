@@ -1,0 +1,31 @@
+(
+    data: [
+        (Loop(
+        reference: Raw(
+        (
+            data: [
+                (Nest(Ref("tiny_castle")), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, -90.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+            ],
+        ))
+        ,
+            shift_transform: (
+                translation: (8.0, 0.0, 0.0),
+                rotation: (0.0, 36.0, 0.0),
+                scale: (0.0, 0.0, 0.0),
+            ),
+            child_transform: (
+                translation: (0.0, 0.0, 0.0),
+                rotation: (0.0, 36.0, 0.0),
+                scale: (0.0, 0.0, 0.0)),
+            count: 10),
+        (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (1.0, 1.0, 1.0),
+        ))
+    ],
+)

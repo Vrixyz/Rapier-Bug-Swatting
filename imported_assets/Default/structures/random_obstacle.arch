@@ -1,0 +1,33 @@
+(
+    data: [
+        (Choose(list: Raw((
+            data: [
+                (Nest(Ref("random_rock")), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (Nest(Ref("tree_cluster")), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (Nest(Ref("random_tree")), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+                (Nest(Ref("random_tree")), (
+                    translation: (0.0, 0.0, 0.0),
+                    rotation: (0.0, 0.0, 0.0),
+                    scale: (1.0, 1.0, 1.0),
+                )),
+            ],
+        )
+        )), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (0.7, 0.7, 0.7),
+        ))
+    ],
+)

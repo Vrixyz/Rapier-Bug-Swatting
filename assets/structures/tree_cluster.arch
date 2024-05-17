@@ -1,0 +1,23 @@
+(
+    data: [
+        (NoiseSpawn(
+            reference: Ref("jiggled_tree"),
+            fbm: FBMData(
+                seed: Seeded(12345),
+                scale: 0.001,
+                octaves: 3,
+                frequency: 0.2,
+                lacunarity: 3.0,
+                persistence: 0.5,
+            ),
+            sample_size: BiDim(20, 20),
+            count: 10,
+            exclusivity_radius: 3.0,
+            resolution_modifier: 1.0
+        ), (
+            translation: (0.0, 0.0, 0.0),
+            rotation: (0.0, 0.0, 0.0),
+            scale: (6.0, 6.0, 6.0),
+        ))
+    ],
+)
